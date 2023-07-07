@@ -1,0 +1,43 @@
+body{
+    margin:0;
+}
+
+.layout{
+    display:flex;
+    flex-direction:row;
+    height:100vh;
+
+}
+
+h1{
+    color:blue;
+}
+.left{
+    color:red;
+    background-color:blue;
+    display:flex;
+    flex-grow:1;
+}
+
+.right{
+    display:flex;
+    flex-direction:column;
+    flex-grow:1.5;
+}
+.top{
+    display:flex;
+    flex-grow:1;
+    background-color:green;
+}
+
+.middle{
+    display:flex;
+    flex-grow:1;
+    background-color:brown;
+}
+
+.bottom{
+    display:flex;
+    flex-grow:1;
+    background-color:purple;
+}
