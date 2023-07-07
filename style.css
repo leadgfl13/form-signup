@@ -12,32 +12,35 @@ body{
 h1{
     color:blue;
 }
+
+
 .left{
+    background-image:url(photos/flower.jpg);
     color:red;
-    background-color:blue;
     display:flex;
-    flex-grow:1;
+    flex:1;
+    border-right:solid 5px black;
 }
 
 .right{
     display:flex;
     flex-direction:column;
-    flex-grow:1.5;
+    flex:1.2;
 }
 .top{
     display:flex;
     flex-grow:1;
-    background-color:green;
+    background-color:rgb(248, 250, 248);
 }
 
 .middle{
     display:flex;
-    flex-grow:1;
-    background-color:brown;
+    flex-grow:1.4;
+    background-color:rgb(211, 206, 206);
 }
 
 .bottom{
     display:flex;
     flex-grow:1;
-    background-color:purple;
+    background-color:rgb(248,250,248);
 }
