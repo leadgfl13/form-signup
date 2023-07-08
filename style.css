@@ -20,18 +20,32 @@ h1{
 
 .left{
     background-image:url(photos/flower.jpg);
-    color:red;
     display:flex;
     flex:.8;
     border-right:solid 5px black;
 }
 
-img{
+.transparent{
+    justify-content:flex-end;
+    align-items:center;
+    display:flex;
+    background-color:black;
+    opacity:70%;
     position:relative;
-    height:100px;
-    top:150px;
     width:100%;
+    top:100px;
+    height:100px;
 }
+
+.logo-words{
+    text-align:right;
+    font-size:56px;
+    color:white;
+    opacity:60%;
+    margin-right:60px;
+
+}
+
 
 .right{
     display:flex;
